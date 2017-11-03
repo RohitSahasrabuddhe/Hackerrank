@@ -1,5 +1,5 @@
 
-package com.hackerrank;
+package com.hackerrank.warmup;
 
 import java.io.*;
 import java.util.*;

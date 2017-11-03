@@ -53,6 +53,7 @@ public class MatrixRotation {
 
 	private static int[] applyRotation(int[] result, int r) {
 		// TODO Auto-generated method stub
+		r = r%(result.length);
 		for(int i = 0 ; i < r ; i++) {
 			//System.out.println(i + " ---loop");
 			rotateArray(result);
